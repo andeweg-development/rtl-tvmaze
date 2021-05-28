@@ -1,5 +1,0 @@
-C:\Users\marce\source\repos\Rtl.TvMask\Rtl.TvMask.Scraper\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\marce\source\repos\Rtl.TvMask\Rtl.TvMask.Scraper\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\marce\source\repos\Rtl.TvMask\Rtl.TvMask.Scraper\obj\Debug\netcoreapp3.1\Rtl.TvMask.Scraper.csprojAssemblyReference.cache
-C:\Users\marce\source\repos\Rtl.TvMask\Rtl.TvMask.Scraper\obj\Debug\netcoreapp3.1\Rtl.TvMask.Scraper.AssemblyInfoInputs.cache
-C:\Users\marce\source\repos\Rtl.TvMask\Rtl.TvMask.Scraper\obj\Debug\netcoreapp3.1\Rtl.TvMask.Scraper.AssemblyInfo.cs

@@ -1,4 +1,0 @@
-C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.DataAccess\obj\Debug\netcoreapp3.1\Rtl.TvMask.DataAccess.csprojAssemblyReference.cache
-C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.DataAccess\obj\Debug\netcoreapp3.1\Rtl.TvMask.DataAccess.AssemblyInfoInputs.cache
-C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.DataAccess\obj\Debug\netcoreapp3.1\Rtl.TvMask.DataAccess.AssemblyInfo.cs
-C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.DataAccess\obj\Debug\netcoreapp3.1\Rtl.TvMask.DataAccess.csproj.CoreCompileInputs.cache
