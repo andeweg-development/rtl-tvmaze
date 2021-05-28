@@ -1,0 +1,10 @@
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\bin\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.deps.json
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\bin\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.dll
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\bin\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.pdb
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.AssemblyInfo.cs
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.dll
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.pdb
+C:\Users\marce\source\repos\Rtl.TvMaze\src\Rtl.TvMaze.Infrastructure\obj\Debug\netcoreapp3.1\Rtl.TvMaze.Infrastructure.csproj.AssemblyReference.cache

@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "2+zCbe6C/PMN5BtQbLrwiDQexYdE7U8kPMM4EfaNnxrGqNTPMxubx23apQXJ3YA3Na03WTQ5XFYk7oRxWwrFjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\Rtl.TvMaze\\src\\Rtl.TvMaze.Infrastructure\\Rtl.TvMaze.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.11\\microsoft.extensions.configuration.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.11\\microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.11\\microsoft.extensions.configuration.binder.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.11\\microsoft.extensions.dependencyinjection.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.http\\3.1.11\\microsoft.extensions.http.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.logging\\3.1.11\\microsoft.extensions.logging.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.11\\microsoft.extensions.logging.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\polly\\7.2.2\\polly.7.2.2.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\refit\\6.0.38\\refit.6.0.38.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\refit.httpclientfactory\\6.0.38\\refit.httpclientfactory.6.0.38.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

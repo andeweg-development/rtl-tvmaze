@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d71Kh0SX/dR9IEtdjGA2zlMRui5Zet1o3Gk3KWWQ1ME17uX186r0HPYed/+X6j9TDcnwphv6Wj43jSxIQMi5eQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\Rtl.TvMaze\\src\\Rtl.TvMaze.DataAccess\\Rtl.TvMaze.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

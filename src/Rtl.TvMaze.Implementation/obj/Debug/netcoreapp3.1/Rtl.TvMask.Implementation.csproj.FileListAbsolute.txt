@@ -1,0 +1,4 @@
+C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.Implementation\bin\Debug\netcoreapp3.1\Rtl.TvMask.DataAccess.dll
+C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.Implementation\obj\Debug\netcoreapp3.1\Rtl.TvMask.Implementation.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.Implementation\obj\Debug\netcoreapp3.1\Rtl.TvMask.Implementation.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\Rtl.TvMask\src\Rtl.TvMask.Implementation\obj\Debug\netcoreapp3.1\Rtl.TvMask.Implementation.AssemblyInfo.cs
