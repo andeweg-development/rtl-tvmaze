@@ -24,10 +24,9 @@ namespace Rtl.TvMaze.WebApi
         {
             services.AddControllers();
 
-
             services
-                .ConfigureDataAccess()
-                .ConfigureInfrastructure()
+                .ConfigureDataAccess(Configuration)
+                .ConfigureInfrastructure(Configuration)
                 .ConfigureImplementation();
 
             services.AddSwaggerGen(c =>

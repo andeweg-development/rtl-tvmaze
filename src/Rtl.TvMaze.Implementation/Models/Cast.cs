@@ -1,6 +1,11 @@
-﻿namespace Rtl.TvMaze.Implementation.Models
+﻿using System;
+
+namespace Rtl.TvMaze.Implementation.Models
 {
     public class Cast
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime Birthday { get; set; }
     }
 }

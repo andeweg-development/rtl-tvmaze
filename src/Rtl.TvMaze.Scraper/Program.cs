@@ -20,9 +20,11 @@ namespace Rtl.TvMaze.Scraper
                     services.AddHostedService<ScraperWorker>();
 
                     services
-                        .ConfigureDataAccess()
-                        .ConfigureInfrastructure()
+                        .ConfigureDataAccess(hostContext.Configuration)
+                        .ConfigureInfrastructure(hostContext.Configuration)
                         .ConfigureImplementation();
+
+
                 });
     }
 }

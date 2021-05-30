@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Rtl.TvMaze.DataAccess.Repositories.Interfaces;
 using Rtl.TvMaze.Implementation.Extensions;
 using Rtl.TvMaze.Implementation.Models;
@@ -20,20 +22,26 @@ namespace Rtl.TvMaze.Implementation.Services
             _showRepository = showRepository;
         }
 
-        public void SyncAllShowsFromTvMaze()
+        public async Task SyncAllShowsFromTvMaze()
         {
             // fetch all shows
-            var allShows = _tvMazeService.GetAllTvShows();
+            IEnumerable<Show> allShows = (await _tvMazeService
+                .GetAllTvShows())
+                .Select(show => show.ToModel());
+
+            // fetch cast per show
+            foreach (var show in allShows)
+            {
+                show.Cast = (await _tvMazeService.GetCastForShow(show.Id)).ToModels();
+            }
 
             // sync shows with database
-
+            await _showRepository.Upsert(allShows.ToEntities());
         }
 
-        public IEnumerable<Show> GetAllShows()
+        public async Task<IEnumerable<Show>> GetAllShows()
         {
-            var shows = _showRepository.GetAllShows();
-
-            return shows.ToModel();
+            return (await _showRepository.GetAllShows()).ToModels();
         }
     }
 }

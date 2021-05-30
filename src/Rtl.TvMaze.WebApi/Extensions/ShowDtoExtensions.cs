@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Rtl.TvMaze.Implementation.Models;
 using Rtl.TvMaze.WebApi.Controllers.Dtos;
 
@@ -18,7 +19,9 @@ namespace Rtl.TvMaze.WebApi.Extensions
         {
             return new ShowDto()
             {
-
+                Id = entity.Id,
+                Name = entity.Name,
+                Cast = entity.Cast?.Select(c => c.ToDto())
             };
         }
     }

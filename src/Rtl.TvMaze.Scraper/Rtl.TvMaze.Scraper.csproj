@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>dotnet-Rtl.TvMask.Scraper-12BCBB18-DEDA-4FD5-B23F-99F4CA8E69D3</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>dotnet-Rtl.TvMask.Scraper-12BCBB18-DEDA-4FD5-B23F-99F4CA8E69D3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

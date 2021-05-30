@@ -7,5 +7,7 @@ namespace Rtl.TvMaze.Infrastructure.Services.Interfaces
     public interface ITvMazeService
     {
         Task<IEnumerable<ShowDto>> GetAllTvShows();
+
+        Task<IEnumerable<CastDto>> GetCastForShow(int showId);
     }
 }

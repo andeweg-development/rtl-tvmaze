@@ -18,7 +18,9 @@ namespace Rtl.TvMaze.WebApi.Extensions
         {
             return new CastDto()
             {
-
+                Id = entity.Id,
+                Name = entity.Name,
+                Birthday = entity.Birthday
             };
         }
     }

@@ -36,7 +36,7 @@ namespace Rtl.TvMaze.Infrastructure.Services
 
             IEnumerable<ShowDto> results = new List<ShowDto>();
 
-            while (resultCount == MAX_RESULTS_PER_PAGE)
+            while (currentPage == 0 || resultCount == MAX_RESULTS_PER_PAGE)
             {
                 await Policy
                     .Handle<ApiException>(ex => ex.StatusCode == System.Net.HttpStatusCode.TooManyRequests)
@@ -51,6 +51,21 @@ namespace Rtl.TvMaze.Infrastructure.Services
                         currentPage++;
                     });
             }
+
+            return results;
+        }
+
+        public async Task<IEnumerable<CastDto>> GetCastForShow(int showId)
+        {
+            IEnumerable<CastDto> results = new List<CastDto>();
+
+            await Policy
+                .Handle<ApiException>(ex => ex.StatusCode == System.Net.HttpStatusCode.TooManyRequests)
+                .WaitAndRetryAsync(SleepDurations)
+                .ExecuteAsync(async () =>
+                {
+                    results = await _tvMazeApi.GetCast(showId);
+                });
 
             return results;
         }

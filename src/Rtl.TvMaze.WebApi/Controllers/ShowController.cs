@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -27,10 +28,10 @@ namespace Rtl.TvMaze.WebApi.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<ShowDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
-        public IEnumerable<ShowDto> Get()
+        public async Task<IEnumerable<ShowDto>> Get()
         {
-            var shows = _showService
-                .GetAllShows()
+            var shows = (await _showService
+                .GetAllShows())
                 .ToDto();
 
             return shows;

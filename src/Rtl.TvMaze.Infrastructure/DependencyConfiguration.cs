@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Refit;
 using Rtl.TvMaze.Infrastructure.Apis;
@@ -9,14 +10,13 @@ namespace Rtl.TvMaze.Infrastructure
 {
     public static class DependencyConfiguration
     {
-        public static IServiceCollection ConfigureInfrastructure(this IServiceCollection serviceCollection)
+        public static IServiceCollection ConfigureInfrastructure(this IServiceCollection serviceCollection, IConfiguration configuration)
         {
-            // TODO: Read from config
-            var tvMazeBaseUrl = "http://api.tvmaze.com";
+            var tvMazeBaseUri = configuration.GetValue<string>("TvMaze:BaseUri");
 
             serviceCollection
                 .AddRefitClient<ITvMazeApi>()
-                .ConfigureHttpClient(c => c.BaseAddress = new Uri(tvMazeBaseUrl));
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri(tvMazeBaseUri));
 
 
             serviceCollection.AddTransient<ITvMazeService, TvMazeService>();

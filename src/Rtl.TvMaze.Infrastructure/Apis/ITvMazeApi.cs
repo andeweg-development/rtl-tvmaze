@@ -9,5 +9,8 @@ namespace Rtl.TvMaze.Infrastructure.Apis
     {
         [Get("/shows?page={pageNo}")]
         Task<IEnumerable<ShowDto>> GetShows(int pageNo);
+
+        [Get("/shows/{showId}/cast")]
+        Task<IEnumerable<CastDto>> GetCast(int showId);
     }
 }
